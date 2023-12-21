@@ -1,24 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-
-function App() {
+const divStyle = { color: 'red', height: 30 };
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div className="App">
+    //   <h1>Hello hasalp</h1>
+    // </div>
+    //  <h1>Bonjour le monde {props.user}</h1>
+    // <div style={{ height: 20, width: 200 }}>
+    // Bonjour
+    // </div>
+    
+    <div style={divStyle}>Bonjour</div>
+
+
+
   );
 }
 
